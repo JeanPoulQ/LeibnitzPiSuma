@@ -19,6 +19,6 @@ public class PiSumaFuturo implements Callable<Double>{
         for(int i = inicio; i<fin; i++){
             pi = pi+ Leibniz((double)i);
         }
-        return pi*4;
+        return 4*pi;
     }
 }
